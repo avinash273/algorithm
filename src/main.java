@@ -1,5 +1,5 @@
 public class main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("\nThis is main class is used to call all other program classes!");
 
         System.out.println("\n");
@@ -18,6 +18,6 @@ public class main {
         //All permutations of a string
         stringPermutations stringPermutations = new stringPermutations();
         System.out.println("\nAll permutations of a string");
-        stringPermutations.getPermutations1("abcd");
+        stringPermutations.getPermutations("abc", "");
     }
 }
