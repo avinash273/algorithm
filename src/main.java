@@ -14,5 +14,10 @@ public class main {
         //code for factorial Recursive
         factorial factorial = new factorial();
         System.out.println("Recursive Factorial: " + factorial.getFactorial(5));
+
+        //All permutations of a string
+        stringPermutations stringPermutations = new stringPermutations();
+        System.out.println("\nAll permutations of a string");
+        stringPermutations.getPermutations1("abcd");
     }
 }
