@@ -2,7 +2,12 @@ public class main {
     public static void main(String[] args) {
         System.out.println("\nThis is main class is used to call all other program classes!");
 
-        System.out.println("\n");
+        /*
+        //tester
+        tester tester = new tester();
+        tester.test();
+         */
+
 
         //Code to find a number is prime or not
         isPrime isPrime = new isPrime();
