@@ -4,5 +4,6 @@ public class main {
         //Code to find a number is prime or not
         isPrime isPrime = new isPrime();
         System.out.println(isPrime.check_prime(17));
+        System.out.println("");
     }
 }
