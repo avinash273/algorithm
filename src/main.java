@@ -24,5 +24,10 @@ public class main {
         stringPermutations stringPermutations = new stringPermutations();
         System.out.println("\nAll permutations of a string");
         stringPermutations.getPermutations("abc", "");
+
+        //All fibonacci from 0 to n
+        fibonacci fibonacci = new fibonacci();
+        System.out.println("\nAll fibonacci from 0 to n");
+        fibonacci.allFib(10);
     }
 }
