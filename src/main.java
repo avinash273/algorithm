@@ -36,5 +36,9 @@ public class main {
         //Product without * operator
         product product = new product();
         product.productNoMultiply(5,4);
+
+        //2^n to n number
+        powers2toN powers2toN = new powers2toN();
+        powers2toN.getPowers2toN(5);
     }
 }
