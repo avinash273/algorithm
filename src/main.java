@@ -32,5 +32,9 @@ public class main {
         //optimised using cache
         System.out.println("\nCache fibonacci from 0 to n");
         fibonacci.allFibOpti(10);
+
+        //Product without * operator
+        product product = new product();
+        product.productNoMultiply(5,4);
     }
 }
