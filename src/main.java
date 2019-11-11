@@ -40,5 +40,10 @@ public class main {
         //2^n to n number
         powers2toN powers2toN = new powers2toN();
         powers2toN.getPowers2toN(5);
+
+        //a3+b3 == c3+d3
+        equationABCD3 equationABCD3 = new equationABCD3();
+        equationABCD3.getAB_CB3(6);
+
     }
 }
