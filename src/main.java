@@ -1,12 +1,11 @@
 public class main {
     public static void main(String[] args) {
-        System.out.println("\nThis is main class is used to call all other program classes!");
+        System.out.println("\n***This is main class is used to call all other program classes!***\n");
 
         /*
         //tester
         tester tester = new tester();
         tester.test();
-         */
 
 
         //Code to find a number is prime or not
@@ -48,6 +47,10 @@ public class main {
         //unique string with each char only once
         uniqueChar uniqueChar = new uniqueChar();
         uniqueChar.checkUniqueChar("abcdefghe");
+         */
 
+        //Compare str2 to permutations of str1
+        compStrPermutation compStrPermutation = new compStrPermutation();
+        compStrPermutation.checkStringPermutation("abc","cb");
     }
 }
