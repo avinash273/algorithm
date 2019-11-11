@@ -29,5 +29,8 @@ public class main {
         fibonacci fibonacci = new fibonacci();
         System.out.println("\nAll fibonacci from 0 to n");
         fibonacci.allFib(10);
+        //optimised using cache
+        System.out.println("\nCache fibonacci from 0 to n");
+        fibonacci.allFibOpti(10);
     }
 }
