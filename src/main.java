@@ -45,5 +45,9 @@ public class main {
         equationABCD3 equationABCD3 = new equationABCD3();
         equationABCD3.getAB_CB3(6);
 
+        //unique string with each char only once
+        uniqueChar uniqueChar = new uniqueChar();
+        uniqueChar.checkUniqueChar("abcdefghe");
+
     }
 }
