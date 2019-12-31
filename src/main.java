@@ -43,14 +43,14 @@ public class main {
         //a3+b3 == c3+d3
         equationABCD3 equationABCD3 = new equationABCD3();
         equationABCD3.getAB_CB3(6);
-
+*/
         //unique string with each char only once
         uniqueChar uniqueChar = new uniqueChar();
-        uniqueChar.checkUniqueChar("abcdefghe");
-         */
+        uniqueChar.checkUniqueChar("abcdefgh");
+
 
         //Compare str2 to permutations of str1
-        compStrPermutation compStrPermutation = new compStrPermutation();
-        compStrPermutation.checkStringPermutation("abc","cb");
+        //compStrPermutation compStrPermutation = new compStrPermutation();
+        //compStrPermutation.checkStringPermutation("abc","cb");
     }
 }
