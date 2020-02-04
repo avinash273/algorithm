@@ -57,5 +57,6 @@ public class main {
         int inputarr[] = {9,8,7,6,5};
         Sorting.bubble_sort_algo(inputarr);
         Sorting.selection_sort(inputarr);
+        Sorting.insertion_sort(inputarr);
     }
 }
