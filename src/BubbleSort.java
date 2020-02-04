@@ -1,8 +1,8 @@
 public class BubbleSort {
     void bubble_sort_algo(int[] array){
         System.out.print("Bubble Sorting\nBefore: ");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" ");
+        for (int value : array) {
+            System.out.print(value + " ");
         }
         for (int i = 0; i < array.length-1; i++) {
             int temp;
@@ -16,8 +16,8 @@ public class BubbleSort {
 
         }
         System.out.print("\nAfter : ");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" ");
+        for (int value : array) {
+            System.out.print(value + " ");
         }
     }
 }
