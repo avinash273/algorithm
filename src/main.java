@@ -51,5 +51,10 @@ public class main {
         //Compare str2 to permutations of str1
         //compStrPermutation compStrPermutation = new compStrPermutation();
         //compStrPermutation.checkStringPermutation("abc","cb");
+
+        //Bubble sort
+        BubbleSort BubbleSort = new BubbleSort();
+        int inputarr[] = {9,8,7,6,5};
+        BubbleSort.bubble_sort_algo(inputarr);
     }
 }
