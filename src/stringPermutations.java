@@ -7,7 +7,7 @@ public class stringPermutations {
             for (int i = 0; i < str.length(); i++) {
                 String rem = str.substring(0, i) + str.substring(i + 1);
                 getPermutations(rem, prefix + str.charAt(i));
-            }
+            } 
         }
     }
 }
