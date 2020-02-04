@@ -53,8 +53,9 @@ public class main {
         //compStrPermutation.checkStringPermutation("abc","cb");
 
         //Bubble sort
-        BubbleSort BubbleSort = new BubbleSort();
+        Sorting Sorting = new Sorting();
         int inputarr[] = {9,8,7,6,5};
-        BubbleSort.bubble_sort_algo(inputarr);
+        Sorting.bubble_sort_algo(inputarr);
+        Sorting.selection_sort(inputarr);
     }
 }
