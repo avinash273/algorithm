@@ -52,11 +52,18 @@ public class main {
         //compStrPermutation compStrPermutation = new compStrPermutation();
         //compStrPermutation.checkStringPermutation("abc","cb");
 
-        //Bubble sort
+        //Sorting Algorithms
         Sorting Sorting = new Sorting();
-        int inputarr[] = {9,8,7,6,5};
+        int inputarr[] = {9, 8, 7, 6, 5};
         Sorting.bubble_sort_algo(inputarr);
         Sorting.selection_sort(inputarr);
         Sorting.insertion_sort(inputarr);
+
+        //Searching Algos
+        Searching Searching = new Searching();
+        int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int val = Searching.Binary_Search(arr, 1);
+        System.out.println("\nBinary Search Index: " + val);
+
     }
 }

@@ -40,15 +40,16 @@ public class Sorting {
 
     }
 
+    //Stable sort
     void insertion_sort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int current = array[i];
             int j = i - 1;
             while (j >= 0 && array[j] > current) {
                 array[j + 1] = array[j];
-                j = j - 1;
-                array[j + 1] = current;
+                j--;
             }
+            array[j + 1] = current;
         }
         System.out.print("\nAfter Insertion : ");
         for (int value : array) {
