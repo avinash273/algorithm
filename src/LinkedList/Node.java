@@ -2,29 +2,30 @@ package LinkedList;
 
 public class Node {
     private int data;
-    private  Node nextNode;
+    private Node nextNode;
 
-    public Node(int data){
+    public Node(int data) {
         this.data = data;
     }
 
-    public  int getData(){
+    public int getData() {
         return this.data;
     }
 
-    public Node getNextNode(){
+    public Node getNextNode() {
         return this.nextNode;
     }
 
-    public void setData(int data){
+    public void setData(int data) {
         this.data = data;
     }
 
-    public void setNextNode(Node nextNode){
+    public void setNextNode(Node nextNode) {
         this.nextNode = nextNode;
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         return this.data + "->";
     }
 }
