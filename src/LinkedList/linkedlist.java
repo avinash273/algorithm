@@ -19,6 +19,22 @@ public class linkedlist {
         return length;
     }
 
+    public void deleteFromHead() {
+        Node start = this.head;
+        this.head = start.getNextNode();
+    }
+
+    public Node search(int data){
+        Node start = this.head;
+        while (start != null){
+            if (start.getData() == data ){
+                return start;
+            }
+            start = start.getNextNode();
+        }
+        return null;
+    }
+
     @Override
     public String toString() {
         String result = "{";

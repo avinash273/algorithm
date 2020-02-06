@@ -9,10 +9,15 @@ public class LinkedListMain {
         list.insertAtHead(3);
         list.insertAtHead(4);
         list.insertAtHead(5);
+        list.deleteFromHead();
+        list.deleteFromHead();
+        Node pointer = list.search(31);
 
+        System.out.println("Search Pointer: " + pointer);
 
         System.out.println(list);
-        System.out.println("Length: "+list.length());
+        System.out.println("Length: " + list.length());
+
 
     }
 }
