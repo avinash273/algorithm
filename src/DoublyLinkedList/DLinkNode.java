@@ -5,7 +5,7 @@ public class DLinkNode {
     private DLinkNode nextNode;
     private DLinkNode previousNode;
 
-    public DLinkNode(int data){
+    public DLinkNode(int data) {
         this.data = data;
     }
 
@@ -31,5 +31,10 @@ public class DLinkNode {
 
     public void setPreviousNode(DLinkNode previousNode) {
         this.previousNode = previousNode;
+    }
+
+    @Override
+    public String toString() {
+        return this.data + "->";
     }
 }

@@ -1,3 +1,5 @@
+package CodingInteview;
+
 public class factorial {
     //O(n)
     int getFactorial(int n) {

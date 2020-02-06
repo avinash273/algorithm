@@ -1,3 +1,5 @@
+package CodingInteview;
+
 import java.lang.Math;
 
 public class Searching {

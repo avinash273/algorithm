@@ -1,3 +1,5 @@
+package CodingInteview;
+
 public class equationABCD3 {
     //O(n4)
     void getAB_CB3(int n){

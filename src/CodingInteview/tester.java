@@ -1,3 +1,5 @@
+package CodingInteview;
+
 public class tester {
     void test() {
         String str = "abc";

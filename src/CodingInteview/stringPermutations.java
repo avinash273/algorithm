@@ -1,3 +1,5 @@
+package CodingInteview;
+
 //O(n * n!)
 public class stringPermutations {
     void getPermutations(String str, String prefix) {

@@ -1,6 +1,8 @@
+package CodingInteview;
+
 public class Sorting {
     void bubble_sort_algo(int[] array) {
-        System.out.print("Sorting\nBefore: ");
+        System.out.print("CodingInteview.Sorting\nBefore: ");
         for (int value : array) {
             System.out.print(value + " ");
         }

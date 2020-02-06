@@ -1,3 +1,5 @@
+package CodingInteview;
+
 public class product {
     void productNoMultiply(int a, int b){
         int sum = 0;

@@ -1,3 +1,5 @@
+package CodingInteview;
+
 import java.lang.Math;
 public class powers2toN {
     //Line 1 2 4 8 16...

@@ -1,3 +1,5 @@
+package CodingInteview;
+
 public class isPrime {
     //O(n)
     String check_prime(int number) {

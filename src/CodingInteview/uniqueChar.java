@@ -1,3 +1,5 @@
+package CodingInteview;
+
 public class uniqueChar {
     //O(n2)
     void checkUniqueChar(String str){

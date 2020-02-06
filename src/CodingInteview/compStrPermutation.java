@@ -1,3 +1,5 @@
+package CodingInteview;
+
 public class compStrPermutation {
     String[] store;
 
