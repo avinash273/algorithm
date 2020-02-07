@@ -13,6 +13,8 @@ public class recursion_main {
         int[] data = {4,1,6,9,5};
         sorter.sort(data);
         System.out.println(Arrays.toString(data));
+        System.out.println(data);
+
 
     }
 }
