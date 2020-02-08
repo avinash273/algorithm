@@ -11,10 +11,12 @@ public class recursion_main {
 
         mergesort sorter = new mergesort();
         int[] data = {4,1,6,9,5};
-        sorter.sort(data);
-        System.out.println(Arrays.toString(data));
+        //sorter.sort(data);
+        System.out.println("Merge Sort: "+Arrays.toString(data));
         System.out.println(data);
 
-
+        QuickSort Quicksort = new QuickSort();
+        Quicksort.qsort(data);
+        System.out.println("Quick Sort: "+Arrays.toString(data));
     }
 }
