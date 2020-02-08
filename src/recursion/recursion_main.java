@@ -10,8 +10,8 @@ public class recursion_main {
         System.out.println(factorial.getFactorial(10));
 
         mergesort sorter = new mergesort();
-        int[] data = {4,1,6,9,5};
-        //sorter.sort(data);
+        int[] data = {4,1,6,-9,5};
+        sorter.sort(data);
         System.out.println("Merge Sort: "+Arrays.toString(data));
         System.out.println(data);
 
