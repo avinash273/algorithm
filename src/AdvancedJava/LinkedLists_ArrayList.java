@@ -6,7 +6,8 @@ public class LinkedLists_ArrayList {
     public static void main(String[] args){
         //Linked List is better when you want to add more elements in between
         //Linked List uses more space
-        //ArrayList used less space and
+        //ArrayList used
+        //less space and
         LinkedList<String> myList = new LinkedList();
         myList.add("A");
         myList.add("B");
